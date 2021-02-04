@@ -1,6 +1,6 @@
 spring:
   profiles:
-   active:
+   active:dev
 ---
 spring:
   profiles:dev
@@ -8,6 +8,6 @@ spring:
    name:springcloud-config-dev
 ---
 spring:
-  profiles:dev
+  profiles:test
   appilcation:
-   name:springcloud-config-text
+   name:springcloud-config-test
