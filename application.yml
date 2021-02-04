@@ -1,0 +1,13 @@
+spring:
+  profiles:
+   active:
+---
+spring:
+  profiles:dev
+  appilcation:
+   name:springcloud-config-dev
+---
+spring:
+  profiles:dev
+  appilcation:
+   name:springcloud-config-text
